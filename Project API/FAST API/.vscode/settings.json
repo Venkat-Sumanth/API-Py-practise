@@ -1,0 +1,12 @@
+{
+    "python.pythonPath": "venv/bin/python",  // Adjust according to your OS and environment
+    "terminal.integrated.env.windows": {
+        "FLASK_APP": "application.py"
+    },
+    "terminal.integrated.env.linux": {
+        "FLASK_APP": "application.py"
+    },
+    "terminal.integrated.env.osx": {
+        "FLASK_APP": "application.py"
+    }
+}
