@@ -75,7 +75,7 @@ for x in myresult:
     print(x[2])
     
 #STEP:6.UPDATE :update data in a table
-mycursor.execute("update customers set age=14 where id =1")
+mycursor.execute("update customers set age=41 where id =3")
 conn.commit()
 print("updated")
 
